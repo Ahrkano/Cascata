@@ -32,7 +32,7 @@ anchor_bottom = 1.0
 position = Vector2( 319.79, 162.106 )
 scale = Vector2( 1.29071, 1.29071 )
 frames = SubResource( 1 )
-frame = 3
+frame = 2
 playing = true
 
 [node name="Versao" type="Label" parent="."]
