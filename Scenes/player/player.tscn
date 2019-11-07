@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=2]
+[gd_scene load_steps=45 format=2]
 
 [ext_resource path="res://Scipts/player.gd" type="Script" id=1]
 [ext_resource path="res://Assets/player/Girl/girl_1.png" type="Texture" id=2]
@@ -41,6 +41,7 @@
 [ext_resource path="res://Assets/player/Girl/girl_39.png" type="Texture" id=39]
 [ext_resource path="res://Assets/player/Girl/girl_40.png" type="Texture" id=40]
 [ext_resource path="res://Assets/player/Girl/girl_41.png" type="Texture" id=41]
+[ext_resource path="res://Scenes/Points.tscn" type="PackedScene" id=42]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -67,7 +68,7 @@ script = ExtResource( 1 )
 [node name="anim" type="AnimatedSprite" parent="."]
 frames = SubResource( 1 )
 animation = "walk"
-frame = 18
+frame = 3
 playing = true
 
 [node name="body" type="CollisionShape2D" parent="."]
@@ -80,3 +81,5 @@ limit_top = 0
 limit_bottom = 575
 limit_smoothed = true
 smoothing_enabled = true
+
+[node name="Display" parent="." instance=ExtResource( 42 )]

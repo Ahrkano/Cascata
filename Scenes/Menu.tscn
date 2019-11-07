@@ -34,7 +34,7 @@ script = ExtResource( 1 )
 position = Vector2( 394.897, 298.307 )
 scale = Vector2( 1.67783, 1.67783 )
 frames = SubResource( 1 )
-frame = 1
+frame = 2
 playing = true
 
 [node name="Versao" type="Label" parent="."]

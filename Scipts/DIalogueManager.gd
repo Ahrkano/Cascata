@@ -138,4 +138,5 @@ func UpdateUI():
 func _on_Button_Pressed(id):
 	NextNode(id)
 	if id > 0:
-		print(str(id)+" litros")
+		global.water += id
+		

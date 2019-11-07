@@ -6,6 +6,8 @@ const UP = Vector2(0,-1)
 var move = Vector2()
 var delta = 0
 
+onready var display = $Display
+
 func _process(delta):
 	self.delta = delta
 	move.y += gravity*delta
@@ -21,5 +23,6 @@ func _process(delta):
 	else :
 		$anim.animation = 'idle'
 		move.x = 0
-		
+	
+	display.update_score(global.water)
 	move = move_and_slide(move, UP)
