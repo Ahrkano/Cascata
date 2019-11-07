@@ -1,0 +1,44 @@
+{
+	"Force" : 0,
+	"Random": 0,
+	"Nodes" :
+	 [
+		{
+			"id"      : 0,
+			"name"    : "ZERO",
+			"text"    : "...",
+			"next_id" : 1,
+			"choices" : [
+				
+				{
+					"text"    : "???",
+					"next_id" : 2
+				},
+
+				{
+					"text"    : "!!!",
+					"next_id" : 3
+				}
+			]
+		},
+
+		{
+			"id"      : 2,
+			"name"    : "ZERO",
+			"text"    : "0+0",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 3,
+			"name"    : "ZERO",
+			"text"    : "O=O",
+			"next_id" : -1,
+			"choices" : []
+		}
+
+
+	]
+
+}

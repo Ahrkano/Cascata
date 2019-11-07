@@ -1,0 +1,58 @@
+{
+	"Force" : 0,
+	"Random": 0,
+	"Nodes" :
+	 [
+		{
+			"id"      : 0,
+			"name"    : "Juvenal",
+			"text"    : "Eita! O cano de água rachou! E agora Alguem? O que eu faço?",
+			"next_id" : 1,
+			"choices" : [
+				
+				{
+					"text"    : "Vamos tentar conter o vazamento",
+					"next_id" : 48
+				},
+
+				{
+					"text"    : "Deixa assim, uma hora alguém resolve",
+					"next_id" : 1500
+				},
+
+				{
+					"text"    : "Liga pra compania de água",
+					"next_id" : 500
+				}
+			]
+		},
+
+		{
+			"id"      : 1500,
+			"name"    : "Juvenal",
+			"text"    : "Tem certeza? Não me parece uma boa ideia, mas já que você tá falando...!",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 500,
+			"name"    : "Juvenal",
+			"text"    : "Vou ligar agora mesmo! Espero que eles venham logo.",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 48,
+			"name"    : "Alguem",
+			"text"    : "Pronto! Isso vai segurar por hora. Agora você deve ligar para a compania de água. Eles vão resolver isso de uma vez por todas.",
+			"next_id" : -1,
+			"choices" : []
+		}
+
+
+
+	]
+
+}

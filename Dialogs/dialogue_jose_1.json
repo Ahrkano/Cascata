@@ -1,0 +1,58 @@
+{
+	"Force" : 0,
+	"Random": 0,
+	"Nodes" :
+	 [
+		{
+			"id"      : 0,
+			"name"    : "Jose",
+			"text"    : "Olha isso Alguem. Essa calçada está muito suja... acho que vou pegar uma mangueira lá atrás e dar um jeito nisso.",
+			"next_id" : 1,
+			"choices" : [
+				
+				{
+					"text"    : "Liga no máximo para limpar fácil",
+					"next_id" : 120
+				},
+
+				{
+					"text"    : "Tente usar a vassoura primeiro",
+					"next_id" : 15
+				},
+
+				{
+					"text"    : "Não esqueça do sabão também",
+					"next_id" : 180
+				}
+			]
+		},
+
+		{
+			"id"      : 120,
+			"name"    : "Jose",
+			"text"    : "Deixa comigo!",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 15,
+			"name"    : "Jose",
+			"text"    : "Bem pensado!",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 180,
+			"name"    : "Jose",
+			"text"    : "Espuma! Sim, muita espuma!!!",
+			"next_id" : -1,
+			"choices" : []
+		}
+
+
+
+	]
+
+}

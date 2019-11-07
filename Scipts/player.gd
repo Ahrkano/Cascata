@@ -11,11 +11,11 @@ func _process(delta):
 	move.y += gravity*delta
 	
 	if Input.is_action_pressed("ui_left"):
-		$anim.flip_h = false
+		$anim.flip_h = true
 		$anim.animation = 'walk'
 		move.x = -moviment_speed * self.delta
 	elif Input.is_action_pressed("ui_right"):
-		$anim.flip_h = true
+		$anim.flip_h = false
 		$anim.animation = 'walk'
 		move.x = moviment_speed * self.delta
 	else :

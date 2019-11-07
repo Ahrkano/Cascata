@@ -52,4 +52,4 @@ position = Vector2( 936.51, 294.986 )
 npc_dialogue = "res://Dialogs/dialogue_juvenal_1.json"
 
 [node name="player" parent="." instance=ExtResource( 3 )]
-position = Vector2( 41.0345, 303.313 )
+position = Vector2( 49.8259, 287.799 )

@@ -1,0 +1,44 @@
+{
+	"Force" : 0,
+	"Random": 0,
+	"Nodes" :
+	 [
+		{
+			"id"      : 0,
+			"name"    : "Joao",
+			"text"    : "E aí Alguem, tudo bom? Estou pensando em lavar meu carro hoje... Você conhece algum lava-jato aqui perto? De preferência um que não seja muito caro.",
+			"next_id" : 1,
+			"choices" : [
+				
+				{
+					"text"    : "Tem um à 5 quarteirões daqui",
+					"next_id" : 250
+				},
+
+				{
+					"text"    : "Você mesmo poderia lavar ele",
+					"next_id" : 20
+				}
+			]
+		},
+
+		{
+			"id"      : 250,
+			"name"    : "Joao",
+			"text"    : "Valeu Alguem!",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 20,
+			"name"    : "Joao",
+			"text"    : "Sabe... não é uma má idéia. Posso economizar uns trocados!",
+			"next_id" : -1,
+			"choices" : []
+		}
+
+
+	]
+
+}
