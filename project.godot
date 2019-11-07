@@ -19,6 +19,10 @@ config/name="Cascata"
 run/main_scene="res://Scenes/Menu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+global="*res://Scipts/global.gd"
+
 [display]
 
 window/size/width=800
