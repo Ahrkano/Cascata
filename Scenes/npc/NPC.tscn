@@ -26,7 +26,7 @@ light_mask = 2
 scale = Vector2( 0.4, 0.4 )
 frames = SubResource( 1 )
 animation = "idle"
-frame = 2
+frame = 1
 playing = true
 
 [node name="Area2D" type="Area2D" parent="."]
@@ -35,9 +35,10 @@ playing = true
 shape = SubResource( 2 )
 
 [node name="DialogueUI" parent="." instance=ExtResource( 6 )]
-margin_left = -195.395
-margin_top = -122.773
-margin_right = 571.605
-margin_bottom = 32.2273
-rect_scale = Vector2( 0.520689, 0.520689 )
+visible = false
+margin_left = -225.795
+margin_top = -239.623
+margin_right = 541.205
+margin_bottom = -84.6232
+rect_scale = Vector2( 0.582727, 0.582727 )
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
