@@ -137,6 +137,6 @@ func UpdateUI():
 #-----On Button Pressed-----#
 func _on_Button_Pressed(id):
 	NextNode(id)
-	if id > 0:
+	if id > 0 and id < 5000:
 		global.water += id
 		

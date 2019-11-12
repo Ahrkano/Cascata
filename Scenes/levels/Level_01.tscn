@@ -65,3 +65,4 @@ npc_dialogue = "res://Dialogs/dialogue_juvenal_1.json"
 
 [node name="player" parent="." instance=ExtResource( 3 )]
 position = Vector2( 49.8259, 287.799 )
+movement_speed = 14000
