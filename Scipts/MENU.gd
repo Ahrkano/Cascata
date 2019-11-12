@@ -2,7 +2,7 @@ extends Control
 
 #NOVO JOGO
 func _on_Button_pressed():
-	return get_tree().change_scene("res://Scenes/levels/Level_01.tscn")
+	return get_tree().change_scene("res://Scenes/Instructions.tscn")
 
 #CONTINUAR
 func _on_Button2_pressed():
