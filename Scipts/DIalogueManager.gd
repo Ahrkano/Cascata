@@ -139,4 +139,5 @@ func _on_Button_Pressed(id):
 	NextNode(id)
 	if id > 0 and id < 5000:
 		global.water += id
-		
+	elif id < 0:
+		global.busy = false	

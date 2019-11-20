@@ -1,0 +1,34 @@
+{
+	"Force" : 0,
+	"Random": 0,
+	"Nodes" :
+	 [
+		{
+			"id"      : 0,
+			"name"    : "NOTICIAS",
+			"text"    : "Mais de 2 bilhões de pessoas vivem em países que experimentam estresse hídrico (proporção anual entre o total de água potável retirada e a quantidade total de recursos hídricos renováveis).",
+			"next_id" : 5001,
+			"choices" : []
+		},
+
+		{
+			"id"      : 5001,
+			"name"    : "NOTICIAS",
+			"text"    : "Estimativas recentes mostram que 31 países experimentam estresse hídrico entre 25% e 70%.",
+			"next_id" : 5002,
+			"choices" : []
+		},
+
+		{
+			"id"      : 5002,
+			"name"    : "NOTICIAS",
+			"text"    : "Outros 22 países estão acima do nível de 70% e, por isso, encontram-se em uma situação grave de estresse hídrico (UN, 2018a).",
+			"next_id" : -1,
+			"choices" : []
+		}
+		
+		
+
+	]
+
+}

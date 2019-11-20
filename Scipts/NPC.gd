@@ -10,6 +10,7 @@ func _ready():
 
 
 func _on_Area2D_body_entered(body):
-	if body.is_in_group("PLAYER") and !finished:
+	if body.is_in_group("PLAYER") and !finished and !global.busy:
 		finished = true
+		global.busy = true
 		dialogue.StartDialogue()
