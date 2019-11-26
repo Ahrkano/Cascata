@@ -1,0 +1,34 @@
+{
+	"Force" : 0,
+	"Random": 0,
+	"Nodes" :
+	 [
+		{
+			"id"      : 0,
+			"name"    : "NOTICIAS",
+			"text"    : "A canalização é o método menos dispendioso de se transportar água. Porém, com frequência não está disponível aos pobres, o que agrava a desigualdade, especialmente em favelas urbanas e em áreas rurais e remotas. ",
+			"next_id" : 5001,
+			"choices" : []
+		},
+
+		{
+			"id"      : 5001,
+			"name"    : "NOTICIAS",
+			"text"    : "As pessoas que vivem em assentamentos informais têm de pagar um preço muito mais alto pela água, que, frequentemente, supera em 10 ou 20 vezes o valor pago por seus vizinhos mais ricos (UNDP, 2006).",
+			"next_id" : 5002,
+			"choices" : []
+		},
+
+		{
+			"id"      : 5002,
+			"name"    : "NOTICIAS",
+			"text"    : "Os pobres acabam pagando caro pelo que os ricos conseguem – quase – de graça.",
+			"next_id" : -1,
+			"choices" : []
+		}
+		
+		
+
+	]
+
+}

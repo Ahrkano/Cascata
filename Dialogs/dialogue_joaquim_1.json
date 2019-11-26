@@ -1,0 +1,184 @@
+{
+	"Force" : 0,
+	"Random": 0,
+	"Nodes" :
+	 [
+		{
+			"id"      : 0,
+			"name"    : "Joaquim",
+			"text"    : "Ola Alguem! Pode me ajudar com minha pesquisa?",
+			"next_id" : 1,
+			"choices" : [
+				
+				{
+					"text"    : "Claro!",
+					"next_id" : 5001
+				},
+
+				{
+					"text"    : "Estou sem tempo.",
+					"next_id" : 1212
+				}
+			]
+		},
+
+		{
+			"id"      : 5001,
+			"name"    : "Joaquim",
+			"text"    : "Legal! Vou te fazer algumas perguntas e você me diz o que acha.",
+			"next_id" : 5003,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 1212,
+			"name"    : "Joaquim",
+			"text"    : "Tudo bem... Acho que todos andam sem tempo por aqui...",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 5003,
+			"name"    : "Joaquim",
+			"text"    : "Qual o melhor jeito de economizar água enquanto escova os dentes?",
+			"next_id" : 5003,
+			"choices" : [
+				
+				{
+					"text"    : "Direto na torneira.",
+					"next_id" : 12
+				},
+
+				{
+					"text"    : "Usando um copo.",
+					"next_id" : 1
+				}
+			]
+		},
+		
+		{
+			"id"      : 12,
+			"name"    : "Joaquim",
+			"text"    : "Na verdade, usando um copo você consegue escovar bem e economiza bem mais.",
+			"next_id" : 5004,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 1,
+			"name"    : "Joaquim",
+			"text"    : "Isso mesmo!",
+			"next_id" : 5004,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 5004,
+			"name"    : "...",
+			"text"    : "Supondo que para lavar minhas roupas na lavadora eu sempre encho o tanque dela. Quanto de roupa devo colocar?",
+			"next_id" : 5004,
+			"choices" : [
+				
+				{
+					"text"    : "Capacidade máxima.",
+					"next_id" : 405
+				},
+
+				{
+					"text"    : "Capacidade média.",
+					"next_id" : 610
+				},
+
+				{
+					"text"    : "Poucas peças.",
+					"next_id" : 1050
+				}
+			]
+		},
+		
+		{
+			"id"      : 405,
+			"name"    : "Joaquim",
+			"text"    : "Você está certo!",
+			"next_id" : 5005,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 1,
+			"name"    : "Joaquim",
+			"text"    : "Sabe...Com capacidade máxima você aproveita toda a água e consegue lavar muita roupa de uma vez.",
+			"next_id" : 5005,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 1,
+			"name"    : "Joaquim",
+			"text"    : "Não. Isso só vai desperdiçar nossa água. O certo é usar com a capacidade máxima.",
+			"next_id" : 5005,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 5005,
+			"name"    : "Joaquim",
+			"text"    : "Qual o melhor horário pra regar as planta do meu jardim?.",
+			"next_id" : 5005,
+			"choices" : [
+				
+				{
+					"text"    : "Final da tarde.",
+					"next_id" : 110
+				},
+
+				{
+					"text"    : "Inicio da tarde.",
+					"next_id" : 150
+				},
+
+				{
+					"text"    : "Durante a manhã.",
+					"next_id" : 80
+				}
+			]
+		},
+		
+		{
+			"id"      : 80,
+			"name"    : "Joaquim",
+			"text"    : "Genial. Pela manhã a taxa de evaporação é menor.",
+			"next_id" : 5006,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 150,
+			"name"    : "Joaquim",
+			"text"    : "Desse jeito a água evapora muito rápido e as plantas vão precisar de mais água. É melhor pela manhã.",
+			"next_id" : 5006,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 110,
+			"name"    : "Joaquim",
+			"text"    : "O ideal é pela manhã, mas no final da tarde é melhor que no início da tarde.",
+			"next_id" : 5006,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 110,
+			"name"    : "Joaquim",
+			"text"    : "Obrigado pelo seu tempo! Por favor passe adiante o que você aprendu comigo. É importante economizar água.",
+			"next_id" : -1,
+			"choices" : []
+		}
+
+
+
+	]
+
+}

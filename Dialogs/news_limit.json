@@ -1,0 +1,26 @@
+{
+	"Force" : 0,
+	"Random": 0,
+	"Nodes" :
+	 [
+		{
+			"id"      : 0,
+			"name"    : "NOTICIAS",
+			"text"    : "De acordo com a Organização Mundial da Saúde (WHO, 2017a), são necessários aproximadamente 50 litros de água por pessoa, por dia, ",
+			"next_id" : 5001,
+			"choices" : []
+		},
+
+		{
+			"id"      : 5001,
+			"name"    : "NOTICIAS",
+			"text"    : "para garantir que as necessidades mais básicas sejam atendidas, ao mesmo tempo em que se mantém um baixo nível de riscos para a saúde pública.",
+			"next_id" : -1,
+			"choices" : []
+		}
+		
+		
+
+	]
+
+}

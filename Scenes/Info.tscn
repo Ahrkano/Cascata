@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scipts/Info.gd" type="Script" id=1]
+[ext_resource path="res://Assets/water_chart.png" type="Texture" id=2]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://Assets/joystix monospace.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 14
+font_data = SubResource( 1 )
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.505882, 0.54902, 0.529412, 1 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -137.0
+margin_top = -164.5
+margin_right = 137.0
+margin_bottom = 164.5
+texture = ExtResource( 2 )
+
+[node name="Panel" type="Panel" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 14.0
+margin_top = -137.0
+margin_right = -14.0
+margin_bottom = -14.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = -112.0
+margin_right = -157.0
+margin_bottom = -8.0
+custom_fonts/normal_font = SubResource( 2 )
+tab_size = 6
+text = "O principal problema da água na atualidade está diretamente associado à falta de água potável no mundo, devido a um gerenciamento inadequado dos recursos hídricos. "
+
+[node name="Control" type="Control" parent="Panel"]
+margin_left = 630.0
+margin_top = 74.0
+margin_right = 776.0
+margin_bottom = 107.0
+
+[node name="Button" type="Button" parent="Panel/Control"]
+margin_right = 12.0
+margin_bottom = 20.0
+text = "continue"
+[connection signal="pressed" from="Panel/Control/Button" to="." method="_on_Button_pressed"]

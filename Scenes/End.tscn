@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://Assets/joystix monospace.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+font_data = SubResource( 1 )
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="Panel" type="Panel" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = 55.0
+margin_top = -110.0
+margin_right = -49.0
+margin_bottom = 80.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_left = 169.0
+margin_top = 64.0
+margin_right = 665.0
+margin_bottom = 169.0
+custom_fonts/normal_font = SubResource( 2 )
+text = "Obrigado por participar!"

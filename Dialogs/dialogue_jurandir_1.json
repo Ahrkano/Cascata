@@ -1,0 +1,106 @@
+{
+	"Force" : 0,
+	"Random": 0,
+	"Nodes" :
+	 [
+		{
+			"id"      : 0,
+			"name"    : "Jurandir",
+			"text"    : "Oi Alguem! Você viu o Juninho por aí? Aquele moleque passou o dia jogando bola e agora deve ter mais areia nele que no campinho.",
+			"next_id" : 5001,
+			"choices" : []
+		},
+
+		{
+			"id"      : 5001,
+			"name"    : "Jurandir",
+			"text"    : "Acho que vou ter que dar uns 3 banhos nele",
+			"next_id" : 1,
+			"choices" : [
+				
+				{
+					"text"    : "Só um já é suficiente",
+					"next_id" : 5002
+				},
+
+				{
+					"text"    : "Um banho de 30 min resolve",
+					"next_id" : 270
+				},
+
+				{
+					"text"    : "Com certeza",
+					"next_id" : 435
+				}
+			]
+		},
+		
+		{
+			"id"      : 5002,
+			"name"    : "Jurandir",
+			"text"    : "É, talvez uns 15 minutos debaixo d'água resolva",
+			"next_id" : 1,
+			"choices" : [
+				
+				{
+					"text"    : "Com bastante sabão",
+					"next_id" : 135
+				},
+
+				{
+					"text"    : "Feche a torneira enquanto ensaboa",
+					"next_id" : 45
+				},
+
+				{
+					"text"    : "Torneira toda aberta",
+					"next_id" : 300
+				}
+			]
+		},
+		
+		{
+			"id"      : 270,
+			"name"    : "...",
+			"text"    : "30 minutos vai desperdiçar quase 300 litros de água.",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 435,
+			"name"    : "...",
+			"text"    : "Essa foi uma péssima ideia... tanto para o pobre garoto quanto para todos nós!",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 135,
+			"name"    : "...",
+			"text"    : "Sabe.. poderia ser melhor...",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 45,
+			"name"    : "...",
+			"text"    : "Você é demais! Isso vai economizar muito!",
+			"next_id" : -1,
+			"choices" : []
+		},
+		
+		{
+			"id"      : 300,
+			"name"    : "...",
+			"text"    : "Essa não foi um boa sugestão...",
+			"next_id" : -1,
+			"choices" : []
+		}
+
+
+
+	]
+
+}

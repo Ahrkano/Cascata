@@ -67,15 +67,19 @@ npc_dialogue = "res://Dialogs/dialogue_juvenal_1.json"
 
 [node name="jurandir" parent="." instance=ExtResource( 3 )]
 position = Vector2( 1470.3, 294.986 )
-npc_dialogue = "res://Dialogs/dialogue_juvenal_1.json"
+npc_dialogue = "res://Dialogs/dialogue_jurandir_1.json"
 
 [node name="joaquim" parent="." instance=ExtResource( 3 )]
 position = Vector2( 1747.76, 295.789 )
-npc_dialogue = "res://Dialogs/dialogue_juvenal_1.json"
+npc_dialogue = "res://Dialogs/dialogue_joaquim_1.json"
 
 [node name="news" parent="." instance=ExtResource( 4 )]
 position = Vector2( 2001.09, 301.585 )
 npc_dialogue = "res://Dialogs/news_stress.json"
+
+[node name="news2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 728.401, 301.585 )
+npc_dialogue = "res://Dialogs/news_facility.json"
 
 [node name="player" parent="." instance=ExtResource( 5 )]
 position = Vector2( 49.8259, 287.799 )
