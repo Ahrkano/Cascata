@@ -51,11 +51,11 @@ position = Vector2( 1337.6, 348.399 )
 shape = SubResource( 2 )
 
 [node name="joao" parent="." instance=ExtResource( 3 )]
-position = Vector2( 171.454, 297.419 )
+position = Vector2( 294.119, 301.585 )
 npc_dialogue = "res://Dialogs/dialogue_joao_1.json"
 
 [node name="jose" parent="." instance=ExtResource( 3 )]
-position = Vector2( 498.947, 295.789 )
+position = Vector2( 692.21, 301.585 )
 npc_dialogue = "res://Dialogs/dialogue_jose_1.json"
 
 [node name="juvenal" parent="." instance=ExtResource( 3 )]
@@ -71,11 +71,11 @@ position = Vector2( 1747.76, 295.789 )
 npc_dialogue = "res://Dialogs/dialogue_joaquim_1.json"
 
 [node name="news" parent="." instance=ExtResource( 4 )]
-position = Vector2( 2001.09, 301.585 )
+position = Vector2( 113.168, 301.585 )
 npc_dialogue = "res://Dialogs/news_stress.json"
 
 [node name="news2" parent="." instance=ExtResource( 4 )]
-position = Vector2( 728.401, 301.585 )
+position = Vector2( 1868.39, 295.789 )
 npc_dialogue = "res://Dialogs/news_facility.json"
 
 [node name="player" parent="." instance=ExtResource( 5 )]
