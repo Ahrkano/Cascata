@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Assets/environment/street_p1.png" type="Texture" id=1]
 [ext_resource path="res://Assets/environment/street_p2.png" type="Texture" id=2]
 [ext_resource path="res://Scenes/npc/NPC.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/npc/Vending.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scenes/player/player.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scipts/next.gd" type="Script" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 10, 151.564 )
@@ -45,10 +46,6 @@ texture = ExtResource( 2 )
 position = Vector2( 8.69217, 183.717 )
 shape = SubResource( 1 )
 
-[node name="wall2" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( 2320.77, 180.951 )
-shape = SubResource( 1 )
-
 [node name="ground" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( 1337.6, 348.399 )
 shape = SubResource( 2 )
@@ -84,3 +81,11 @@ npc_dialogue = "res://Dialogs/news_facility.json"
 [node name="player" parent="." instance=ExtResource( 5 )]
 position = Vector2( 49.8259, 287.799 )
 movement_speed = 14000
+
+[node name="next" type="Area2D" parent="."]
+script = ExtResource( 6 )
+
+[node name="wall2" type="CollisionShape2D" parent="next"]
+position = Vector2( 2320.77, 180.951 )
+shape = SubResource( 1 )
+[connection signal="body_entered" from="next" to="next" method="_on_next_body_entered"]

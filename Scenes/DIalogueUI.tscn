@@ -4,6 +4,8 @@
 [ext_resource path="res://Scipts/DIalogueManager.gd" type="Script" id=2]
 [ext_resource path="res://Assets/joystix monospace.ttf" type="DynamicFontData" id=3]
 
+
+
 [sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 1 )
 region_rect = Rect2( 0, 0, 1451, 441 )
